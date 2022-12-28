@@ -82,6 +82,8 @@ std::vector<double> bezierCurve(std::vector<double> lineData, unsigned int outpu
         bCurve.push_back(bCurvet);
     }
     return bCurve;
+    // Note the curve shape can be modified by adding rational weights to the numerator and denominator as per
+    // https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Rational_B%C3%A9zier_curves
 }
 
 //-----------------------------------------------------------
